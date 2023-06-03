@@ -16,7 +16,9 @@
 2. Create an .env file following format:
 
 process.env.DB_NAME='ecommerce_db'
+
 process.env.DB_USER=''
+
 process.env.DB_PW=''
 
 3. Create the database by running SOURCE schema.sql 
