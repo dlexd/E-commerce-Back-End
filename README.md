@@ -13,7 +13,12 @@
 ## Installation
 
 1. Run npm install in root directory 
-2. Create an .env file following the .env.example file. 
+2. Create an .env file following format:
+
+process.env.DB_NAME='ecommerce_db'
+process.env.DB_USER=''
+process.env.DB_PW=''
+
 3. Create the database by running SOURCE schema.sql 
 4. Run "npm run seed" to seed the database. 
 
